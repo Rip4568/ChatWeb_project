@@ -7,3 +7,7 @@ class HomeTemplateView(View):
     template_name = 'Core_app/index.html'
     context:dict = dict()
     return render(self.request,template_name=template_name,context=context)
+  
+class ListarPessoasView(View):
+  def get(self, request, *args):
+    template_name = 'Core_app'

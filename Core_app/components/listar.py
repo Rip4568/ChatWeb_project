@@ -1,5 +1,5 @@
 from django_unicorn.components import UnicornView
 
 
-class AmigoView(UnicornView):
+class ListarView(UnicornView):
     pass

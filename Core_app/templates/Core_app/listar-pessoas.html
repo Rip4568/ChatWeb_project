@@ -1,0 +1,11 @@
+{% extends "Core_app/base.html" %}
+{% load static %}
+{% load unicorn %}
+
+{% block titulo %}ChatApp - Listagem de pessoas{% endblock titulo %}
+
+{% block head %}{% endblock head %}
+
+{% block body %}
+  {% unicorn 'listar' %}
+{% endblock body %}
